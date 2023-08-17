@@ -37,5 +37,5 @@ Divirta-se codificando! 💻✨
 
 ---
 
-**Criado por**: Nathallia Cabral  
+**Criado por**: Nathállia Cabral  
 **Projeto para**: ElasEmTech - 2023
