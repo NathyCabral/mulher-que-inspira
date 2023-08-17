@@ -17,13 +17,36 @@ header {
 .container {
     max-width: 50rem;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 4rem;
 }
+
 
 img {
     max-width: 100%;
     height: auto;
 }
+
+/* ... Box code ... */
+
+
+.code-box {
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 35px;
+    height: 200px; /* Altura fixa da caixa de rolagem */
+    overflow-y: auto; /* Adiciona rolagem vertical se o conteúdo exceder a altura */
+}
+
+/* ... Box code ... */
+
+.canvas {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
 
 h1 {
     text-align: center;
@@ -34,13 +57,14 @@ h1 {
 h2 {
     text-align: center;
     font-size: 1.5rem;
-    margin-top: 1.875rem;
+    margin-top: 7rem;
 }
 
 p {
     font-size: 1rem;
     line-height: 1.6;
 }
+
 
 footer {
     background-color: #c5bfdb;
