@@ -15,6 +15,8 @@ Durante esta jornada, estaremos trabalhando com as seguintes tecnologias:
 
 - CSS 🎨: Usaremos CSS para dar estilo à nossa página. Vamos brincar com cores, fontes e layouts para garantir uma experiência visualmente agradável e envolvente.
 
+- JavaScript ⚙️: Implementamos efeitos interativos usando JavaScript. O efeito de digitação é um exemplo de como o JavaScript torna nossa página mais dinâmica e envolvente.
+
 ## Como Contribuir 🤝
 
 Estamos ansiosas para receber suas contribuições e tornar este projeto ainda mais incrível! Se você deseja participar, siga estas etapas simples:
