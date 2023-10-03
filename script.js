@@ -41,3 +41,29 @@ function typeCode() {
 }
 
 typeCode();
+
+
+
+const carouselItems = [
+    "Texto 1 do Carrossel",
+    "Texto 2 do Carrossel",
+    "Texto 3 do Carrossel",
+    // Adicione mais itens conforme necessário
+];
+
+let currentItemIndex = 0;
+const carouselElement = document.querySelector(".carousel");
+
+function updateCarousel() {
+    carouselElement.textContent = carouselItems[currentItemIndex];
+}
+
+function nextCarouselItem() {
+    currentItemIndex = (currentItemIndex + 1) % carouselItems.length;
+    updateCarousel();
+}
+
+// Inicie o carrossel
+updateCarousel();
+setInterval(nextCarouselItem, 3000); // Altere a cada 3 segundos (3000 milissegundos)
+
